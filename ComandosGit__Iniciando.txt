@@ -1,1 +1,16 @@
-d
+git init   ==>Cria um repositorio no GIT
+
+git add .  ==>Envia seus arquivos para uma area temporaria chamada stage
+	   ==>Essa area é onde fica os arquivos que serão salvos na proxima versão
+
+git commit -m "Mensagem explicita"  ==>Salva os arquivos na versão
+
+git remote add origin git@github.com:LeonardoPPasseri/NomedoRepositorio
+
+git push -u origin main
+
+
+
+
+git branch -M main ==> O github costuma usar main para salvar os arquivos
+	           ==> Salva os arquivos na main e não com outro nome
