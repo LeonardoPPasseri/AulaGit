@@ -1,3 +1,4 @@
+******Iniciando um novo repositorio**********************************************
 git init   ==>Cria um repositorio no GIT
 
 git add .  ==>Envia seus arquivos para uma area temporaria chamada stage
@@ -10,14 +11,13 @@ git remote add origin git@github.com:LeonardoPPasseri/NomedoRepositorio
 git push -u origin main
 
 
-
-
 git branch -M main ==> O github costuma usar main para salvar os arquivos
-	           ==> Salva os arquivos na main e não com outro nome
-
+	               ==> Salva os arquivos na main e não com outro nome
+*********************************************************************************
 
 git status
 
+****Manipulando versões**************************************************************************
 git log     ==>Mostra as versões do projeto
 git log --oneline 
 
@@ -25,5 +25,12 @@ git reset      ==>Retira os arquivos do stage
 
 git checkout numero ou nome do arquivo     ==>Coloca uma versão, anterior ou sucessora, como head
 
+**Voltando os arquivos alterados ao original**
+git status
+git reset
+git clean -df   ==>Remove arquivos criados
+git checkout -- . ==>Volta a versão head
+***************************************************************************************************
 
 Arquivo .gitiginore  =>>Arquivo que indica o que não deve ser salvo pelo Git 
+
