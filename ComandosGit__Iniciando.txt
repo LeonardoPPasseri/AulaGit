@@ -21,6 +21,9 @@ git status
 git log     ==>Mostra as versões do projeto
 git log --oneline 
 
-git reset      ==>Retira as modificações feitas
+git reset      ==>Retira os arquivos do stage
 
 git checkout numero ou nome do arquivo     ==>Coloca uma versão, anterior ou sucessora, como head
+
+
+Arquivo .gitiginore  =>>Arquivo que indica o que não deve ser salvo pelo Git 
