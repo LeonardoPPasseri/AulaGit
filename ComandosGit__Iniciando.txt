@@ -14,3 +14,13 @@ git push -u origin main
 
 git branch -M main ==> O github costuma usar main para salvar os arquivos
 	           ==> Salva os arquivos na main e não com outro nome
+
+
+git status
+
+git log     ==>Mostra as versões do projeto
+git log --oneline 
+
+git reset      ==>Retira as modificações feitas
+
+git checkout numero ou nome do arquivo     ==>Coloca uma versão, anterior ou sucessora, como head
