@@ -30,6 +30,15 @@ git status
 git reset
 git clean -df   ==>Remove arquivos criados
 git checkout -- . ==>Volta a versão head
+**********************************************
+
+git reset --soft HEAD~1    ==> Deleta o commit feito atual e volta ao anterior(porem "soft", mantem as alterações no arquivo)
+git reset --hard HEAD~1   ==> Deleta o commit feito atual e deleta as alterações, voltando ao commit anterior
+HEAD~1 ==>indica o commit a qual será retornado, no caso, para o penultimo.
+
+
+git pull <nome do remote> <nome da branch> ==> Pega os arquivos que estão no servidor e envia para o arquivo local
+
 ***************************************************************************************************
 
 Arquivo .gitiginore  =>>Arquivo que indica o que não deve ser salvo pelo Git 
