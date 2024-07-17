@@ -43,3 +43,18 @@ git pull <nome do remote> <nome da branch> ==> Pega os arquivos que estão no se
 
 Arquivo .gitiginore  =>>Arquivo que indica o que não deve ser salvo pelo Git 
 
+********CASOS DE CONFLITO ***************************************************
+Mudança nos arquivos salvos no servidor e outra mudança no local
+mas sem ser na msm pasta 
+===>Resolve usando o git pull <nome do remote> <nome da branch>
+==>Fazendo isso aparecera um menu em que vc devera criar um commit para juntar
+=>concluido
+
+Mundança nos arquivos salvos no servidor e outra mudança no local
+mas ALTERANDO O MSM Arquivo
+===>===>Resolve usando o git pull <nome do remote> <nome da branch>
+==>As mudanças feitas apareceram no vscode 
+=>Altere e faça mudanças localmente
+=>Faça o commit e push da mudança/merge 
+=>concluido
+********************************************************************************
